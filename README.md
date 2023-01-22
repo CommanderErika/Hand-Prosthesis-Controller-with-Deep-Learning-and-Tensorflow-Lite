@@ -10,7 +10,7 @@ This project has the objective to create a Hand Prosthesis Controller using Deep
 
 One of the main objectives of this project is to study how electromyography (EMG) signals works, and how Deep Learning techniques can learning its paterns. This is a very interesting topic in Health. The other main objective of this project is to use TinyML techniques to embed Deep Learning models, TinyML here is a set of techniques that enable use Machine Learning/Deep Learning Models in low energy microcontrolers.
 
-For this project it was used Arduino nano 3 BLE sense, but is possible to do se same for raspberry pi pico. Unfortunately there was no raspberry pi pico available during the project. 
+For this project it was used Arduino nano 33 BLE sense, but is possible to do se same for raspberry pi pico. Unfortunately there was no raspberry pi pico available during the project. 
 
 More Details can be found in: https://repositorio.ufrn.br/handle/123456789/50899
 
@@ -42,3 +42,5 @@ After creating the model, It were necessary to quantizate the model to be suitab
 <p align="center">
   <img src="https://github.com/CommanderErika/Hand-Prosthesis-Controller-with-Deep-Learning-and-Tensorflow-Lite/blob/main/files/matrix_final.png" width="700" heigth = "800" title="Confusion Matrix after Quantization">
 </p>
+
+The inferece of the model runs in 250ms in a Arduino nano 33 BLE sense.
