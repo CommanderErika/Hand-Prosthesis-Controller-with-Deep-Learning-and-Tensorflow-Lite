@@ -25,11 +25,14 @@ i've created a python file to transform each matlab file in imagens of every cla
 
 First were created the model using TensorFlow using python. In the imagem bellow, we can see the confusion matrix of the results. Were obtained accuracy of 0.93 with validation subset. And also had a f1-score, precision and recall vary from 0.91-0.94 for each class.
 
-![alt text](https://github.com/CommanderErika/Hand-Prosthesis-Controller-with-Deep-Learning-and-Tensorflow-Lite/tree/main/files/matrix_final_ajeitado.png?raw=true "Confusion Matrix before quantization")
-
+<p align="center">
+  <img src="https://github.com/CommanderErika/Hand-Prosthesis-Controller-with-Deep-Learning-and-Tensorflow-Lite/blob/main/files/matrix_final_ajeitado.png" width="700" heigth = "800" title="Confusion Matrix before Quantization">
+</p>
 
 ### Model after Quantization with TensorFlow Lite
 
 After creating the model, It were necessary to quantizate the model to be suitable fr low power microcontrolers. In the imagem bellow w have the results after the quantization. It were also obtained accuracy of 0.93 with validation subset. And also had a f1-score, precision and recall vary from 0.91-0.94 for each class.
 
-![alt text](https://github.com/CommanderErika/Hand-Prosthesis-Controller-with-Deep-Learning-and-Tensorflow-Lite/tree/main/files/matrix_final.png?raw=true "Confusion Matrix after Quantization")
+<p align="center">
+  <img src="https://github.com/CommanderErika/Hand-Prosthesis-Controller-with-Deep-Learning-and-Tensorflow-Lite/blob/main/files/matrix_final.png" width="700" heigth = "800" title="Confusion Matrix after Quantization">
+</p>
